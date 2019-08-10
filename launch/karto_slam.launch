@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="slam_karto" type="slam_karto" name="pir2_slam_karto" output="screen">
+    <remap from="scan" to="scan"/>
+</launch>
