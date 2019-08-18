@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="amcl" type="amcl" name="amcl" output="screen">
+    <remap from="scan" to="scan" />
+    <rosparam file="$(find pir2_navigation)/config/amcl/amcl.yaml" command="load" />
+  </node>
+</launch>
