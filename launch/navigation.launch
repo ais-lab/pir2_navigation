@@ -26,10 +26,10 @@
     <rosparam file="$(find pir2_navigation)/config/planner/recovery_behaviors.yaml" command="load"/>
 
     <!-- MOVE BASE -->
-    <param name="controller_frequency" value="10.0" />
-    <param name="controller_patience" value="1.0" />
+    <param name="controller_frequency" value="5.0" />
+    <param name="controller_patience" value="15.0" />
     <param name="max_planning_retries" value="10" />
-    <param name="oscillation_timeout" value="0.2" />
+    <param name="oscillation_timeout" value="10.0" />
     <param name="clearing_rotation_allowed" value="true" />
 
     <!-- remap cmd_vel topic for gazebo -->

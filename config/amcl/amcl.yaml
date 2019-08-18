@@ -7,7 +7,7 @@ odom_alpha5: 0.2
 transform_tolerance: 0.2
 gui_publish_rate: 10.0
 laser_max_beams: 180
-min_particles: 1000
+min_particles: 500
 max_particles: 5000
 kld_err: 0.01
 kld_z: 0.99
