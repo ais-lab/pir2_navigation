@@ -2,12 +2,12 @@
 use_map_topic: true
 first_map_only: true
 # Publish scans from best pose at a max of 10 Hz
-odom_model_type: omni-corrected
+odom_model_type: diff
 odom_alpha5: 0.2
 transform_tolerance: 0.2
 gui_publish_rate: 10.0
-laser_max_beams: 60
-min_particles: 100
+laser_max_beams: 180
+min_particles: 500
 max_particles: 5000
 kld_err: 0.01
 kld_z: 0.99
