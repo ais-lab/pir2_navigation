@@ -2,7 +2,7 @@
   <master auto="start"/>
 
   <!-- MAP SERVER -->
-  <arg name="map_file" default="$(find pir2_navigation)/map/map.yaml"/>
+  <arg name="map_file" default="$(find pir2_navigation)/map/nav_test.yaml"/>
   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)">
     <param name="frame_id" value="/map" />
   </node>
